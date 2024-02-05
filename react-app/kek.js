@@ -20,3 +20,4 @@ function findLUSlength(a, b) {
 
 
 findLUSlength('cdc','faf');
+findLUSlength('cdc','faf');
