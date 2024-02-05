@@ -1,0 +1,17 @@
+.menus {
+    margin-left: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu-items {
+    display: inline-block;
+    position: relative;
+    padding: 0px 100px 50px 100px;
+    
+ }
+
+.desktop-nav {
+    font-family: 'Courier New', Courier, monospace;
+}
+

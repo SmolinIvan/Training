@@ -1,0 +1,54 @@
+.card-title {
+    text-align: center;
+    margin: 0 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+.card-image {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-bottom:0px;
+}
+  
+.modal-text {
+    text-align :justify;
+    margin-bottom: 0;
+
+}
+
+.modal {
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.4rem;
+    width: auto;
+    padding: 1.3rem;
+    height: auto;
+    background: linear-gradient(70deg, rgb(13, 13, 51), purple);
+    border: 1px solid black;
+    border-radius: 15px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-close {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em 0.25em;
+    color: #000;
+    border: 0;
+    border-radius: 0.375rem;
+    opacity: 0.5;
+    margin-left: auto;
+    margin-right: 0;
+    cursor:pointer;
+    background: transparent url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2016'%20fill='%23000'%3E%3Cpath%20d='M.293.293a1%201%200%200%201%201.414%200L8%206.586%2014.293.293a1%201%200%201%201%201.414%201.414L9.414%208l6.293%206.293a1%201%200%200%201-1.414%201.414L8%209.414l-6.293%206.293a1%201%200%200%201-1.414-1.414L6.586%208%20.293%201.707a1%201%200%200%201%200-1.414z'/%3E%3C/svg%3E");
+}

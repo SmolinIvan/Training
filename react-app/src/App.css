@@ -1,0 +1,134 @@
+body {
+  width:auto;
+  background-image:url('src/assets/main/Synthback3.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: inline;
+  align-items: center;
+  align-content: center;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  text-align: center;
+
+}
+
+.title {
+  height: auto;
+  color:white;
+  filter: drop-shadow(3px 3px 10px rgb(65, 9, 87));
+  text-align: center;
+  position:relative;
+} 
+
+.modal {
+  display: flex;
+  color: rgb(255, 255, 255);
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.4rem;
+  width: auto;
+  padding: 1.3rem;
+  height: auto;
+  background: linear-gradient(70deg, rgb(13, 13, 51), purple);
+  border: 1px solid black;
+  border-radius: 15px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: auto,
+}
+
+.btn-close {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.card-block {
+  max-width: 580px;
+  display: inline-block;
+  vertical-align: middle;
+}  
+
+.card-title {
+  text-align: center;
+}
+
+.card {
+  max-width: 100%;
+  width: 200px;
+  height: auto;
+  margin: 25px 20px 0px 20px;
+  color:azure;
+  box-shadow: 4px 4px 4px black;
+  border: 1px solid black;
+  background-color: rgb(65, 9, 87);
+  display:inline-block;
+  cursor: pointer;
+  transition: opacity 0.2s;   
+}
+
+.card-image {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin-bottom:0px;
+}
+
+.modal-text {
+  text-align :justify;
+  margin-bottom: 0;
+}
+
+.overlay {
+
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+
+.footer {
+  margin-top: 200px;
+  height: 10px;
+  width: auto;
+  display:flex;
+  font-size: 15px;
+  background-color:rgb(65, 9, 87, 0.5);
+  box-shadow: 3px 3px 10px rgb(65, 9, 87);
+}
+
+.footer1 {
+  font-size: 15px;
+  height:100%;
+  margin: 0 auto;
+  display:flex;
+  color: white;
+  padding: 0px;
+  text-decoration: none;
+  background-color: rgb(13, 13, 51, 0);
+  border-radius: 0px;
+}
+
+.icon {
+  height: 15px;
+  margin-right: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.simple {
+  text-align: center;
+}
+
+
+ul {
+  position: flex;
+  padding-left: 0rem;
+}
