@@ -1,7 +1,7 @@
 export interface CardProps {
-    children: string;
-    onClick: () => void;
-    imgSrc: string;
+    children?: string;
+    onClick?: () => void;
+    imgSrc?: string;
 }
 
 export const Card = ({ children, onClick, imgSrc }: CardProps) => {

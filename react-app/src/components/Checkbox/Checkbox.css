@@ -1,0 +1,17 @@
+.checkbox {
+    display:block;
+    max-width: 150px;
+    color: white;
+    background-color: rgb(65, 9, 87);
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;;
+}
+label {
+    margin: 10px 5px 10px 5px;
+}
+
+button {
+    background-color: darkblue;
+    color: azure;
+    border: 0px;
+}
