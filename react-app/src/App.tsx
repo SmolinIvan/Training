@@ -7,6 +7,8 @@ import Navbar from "./components/Navbar/Navbar";
 import { menuNavbar } from './components/Navbar/menuItemsData';
 import Checkbox from "./components/Checkbox/Checkbox";
 import {itemForCheckBox} from "./components/Checkbox/itemForCheckBox";
+import getUser from "./requests/getUser";
+import Table from "./components/Table/Table";
 
 function App() {
   const [modalVisible, modalVisibility] = useState(false);
@@ -42,8 +44,9 @@ function App() {
     {/*  <a className= "footer1" href="https://telegram.me/SmolingIva">@SmolingIva</a>*/}
     {/*</div>*/}
     {/*</footer>*/}
-    <Card onClick={() =>[checkBox1Visibility(true)]}>Посмотреть</Card>
-        { checkBox1Visible && <Checkbox value={itemForCheckBox} title={"Choose your destiny"} ></Checkbox>}
+        <Card onClick={() =>[checkBox1Visibility(true)]}>Посмотреть</Card>
+        { checkBox1Visible && <Checkbox onClose = {() => [checkBox1Visibility(false)]} value={itemForCheckBox} title={"Choose your destiny"} ></Checkbox>}
+        <Table></Table>
   </div>
   );
 }

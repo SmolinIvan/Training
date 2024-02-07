@@ -6,12 +6,13 @@ export interface LabelProps{
 export interface CheckBoxProps {
     value: LabelProps[]
     onClick?: () => void;
+    onClose?: () => void;
     title:string;
 }
 
 
 
-const Checkbox = ({ value,title, onClick }:CheckBoxProps) => {
+const Checkbox = ({ value,title, onClick,onClose }:CheckBoxProps) => {
     const [isChecked, setIsChecked] = useState(false);
     return (
         <div className="checkbox">
@@ -25,6 +26,7 @@ const Checkbox = ({ value,title, onClick }:CheckBoxProps) => {
                     );
                 })}
             <button onClick={onClick}>Сохранить</button>
+            <button type="button" className="btn-close" onClick = {onClose}></button>
         </div>
     );
 };
