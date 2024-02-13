@@ -1,18 +1,6 @@
-.checkbox {
-    /*display:block;*/
-    /*max-width: 150px;*/
-    /*color: white;*/
-    /*background-color: rgb(65, 9, 87);*/
-    /*border-radius: 15px;*/
-    /*font-family: 'Courier New', Courier, monospace;*/
-    display: flex;
-    color: rgb(255, 255, 255);
-    flex-direction: column;
-    justify-content: center;
-    gap: 0.4rem;
-    width: auto;
-    padding: 1.3rem;
-    height: auto;
+.parentCheckbox{
+
+    width:400px;
     background: linear-gradient(70deg, rgb(13, 13, 51), purple);
     border: 1px solid black;
     border-radius: 15px;
@@ -20,6 +8,25 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.checkbox {
+    /*display:block;*/
+    max-width: 180px;
+    /*color: white;*/
+    /*background-color: rgb(65, 9, 87);*/
+    /*border-radius: 15px;*/
+    /*font-family: 'Courier New', Courier, monospace;*/
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.4rem;
+    width: auto;
+    padding: 1.3rem;
+    height: auto;
+
+
     height: auto;
     font-family: 'Courier New', Courier, monospace;
 }

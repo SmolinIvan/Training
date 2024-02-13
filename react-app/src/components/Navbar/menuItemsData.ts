@@ -55,11 +55,11 @@ export const menuNavbar: InOneNavBarMenuProps['list']= [
     url: '/more',
     verticalMenu:   [
       {
-        title: 'Гостям',
+        title: 'Привет',
         url: '/',
       },
       {
-        title: 'Где',
+        title: 'Бомжур',
         url: '/2',
       },
     ],
