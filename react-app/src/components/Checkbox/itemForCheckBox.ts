@@ -1,7 +1,7 @@
 import {CheckBoxesProps} from "./Checkbox";
 export const itemForCheckBox2: CheckBoxesProps["checkBoxItems"] = [
     {
-        value: [
+        item: [
 
             {
                 label: "Wine",
@@ -19,7 +19,7 @@ export const itemForCheckBox2: CheckBoxesProps["checkBoxItems"] = [
         title: "Wishes",
     },
     {
-        value: [
+        item: [
 
             {
                 label: "Gluten",

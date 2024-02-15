@@ -20,6 +20,7 @@ body {
   filter: drop-shadow(3px 3px 10px rgb(65, 9, 87));
   text-align: center;
   position:relative;
+  margin-top:40px;
 } 
 
 .modal {
@@ -137,4 +138,24 @@ ul {
 
 button {
   border-radius: 15px;
+  margin:auto;
+}
+
+input {
+  margin:5px;
+}
+
+.btn-close{
+  margin: 5px 5px 5px auto;
+}
+
+label {
+  margin: 10px 10px 5px 10px;
+  width: 100%;
+  display: inline-flex;
+}
+
+h4{
+  width:100%;
+  margin:0px;
 }

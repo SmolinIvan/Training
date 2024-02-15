@@ -37,7 +37,7 @@ const Table = () => {
 
 export default Table;
 
-// надо подумать, как переисользовать этот хук
+// надо подумать, как переиспользовать этот хук
 const useUser = () => {
     const [user, usersChange] = useState<User>();
 

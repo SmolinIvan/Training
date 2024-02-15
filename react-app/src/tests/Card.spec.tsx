@@ -8,6 +8,6 @@ test('Check Table content', async ({ mount }) => {
 //Uses mount() to instantiate the <App /> component in isolation
     const component = await mount(<App></App>);
 
-    await component.screenshot({ path: 'screenshot1.png' });
+    await component.screenshot({ path: 'screenshot2.png' });
 
 });
